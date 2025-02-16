@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     padding: 0;
-background-color: #c49457d0;
+    background-color: #c49457d0;
 }
 
 header {
@@ -30,6 +30,7 @@ nav ul li a {
 
 main {
     padding: 2em;
+    padding-bottom: 100px; /* Espacio extra para el pie de página */
 }
 
 footer {
@@ -37,10 +38,8 @@ footer {
     color: #7c5e36;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
+
 button {
     padding: 0.5em 1em;
     background-color: #aa814b; 
@@ -48,8 +47,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 25px;
-    font-family: molotot
-
+    font-family: molotot;
 }
 
 button:hover {
@@ -73,6 +71,16 @@ button:hover {
 
     nav ul li {
         margin: 0.5em 0;
+    }
+
+    .producto {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .producto button {
+        margin: 10px 0; /* Espacio extra alrededor de los botones */
     }
 }
 
